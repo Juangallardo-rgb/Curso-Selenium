@@ -1,0 +1,204 @@
+{
+  "id": "49601d08-a8d4-4c24-9bb8-3028394587ab",
+  "version": "2.0",
+  "name": "Test1",
+  "url": "https://demoqa.com",
+  "tests": [{
+    "id": "4d0879d4-8ecc-4095-ae5e-9ff63a2cfec8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "f006af5e-9db5-4aad-92ff-4173ad2494ff",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad10d7a3-60be-4afb-8ce9-7112670ed596",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1296x768",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4520685-4836-4c5d-9e31-e3784528ad83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) svg",
+      "targets": [
+        ["css=.card:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "03b8156a-a0a4-46f1-b166-c4504b31959b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "08d96994-c245-4bc0-8890-ef38654f746a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show #item-3 > .text",
+      "targets": [
+        ["css=.show #item-3 > .text", "css:finder"],
+        ["xpath=//li[@id='item-3']/span", "xpath:idRelative"],
+        ["xpath=//li[4]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Web Tables')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5ebd0f4-26a0-4490-8206-d291ce0381f1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.card:nth-child(1) svg",
+      "targets": [
+        ["css=.card:nth-child(1) svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "59284719-5a1c-4759-bfa0-ebf16bdf8928",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6 > div:nth-child(2)",
+      "targets": [
+        ["css=.col-md-6 > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9701f099-37d8-47b8-aadc-7d437ea02680",
+      "comment": "",
+      "command": "click",
+      "target": "css=.element-group:nth-child(2) .header-text",
+      "targets": [
+        ["css=.element-group:nth-child(2) .header-text", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div[2]/span/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdf30e14-86b6-473c-b465-72d562c58677",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-6 > div:nth-child(2)",
+      "targets": [
+        ["css=.col-md-6 > div:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63f9dfeb-fb5e-430f-9298-713659aae9a9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.element-group:nth-child(3) .header-text",
+      "targets": [
+        ["css=.element-group:nth-child(3) .header-text", "css:finder"],
+        ["xpath=//div[@id='app']/div/div/div/div/div/div/div[3]/span/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/span/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12ecfed2-f7ee-435b-abf5-6550beb8fc06",
+      "comment": "",
+      "command": "click",
+      "target": "css=.show #item-0 > .text",
+      "targets": [
+        ["css=.show #item-0 > .text", "css:finder"],
+        ["xpath=(//li[@id='item-0']/span)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/div/ul/li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Browser Windows')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb475d90-6439-439b-8d44-79928e33a61e",
+      "comment": "",
+      "command": "click",
+      "target": "id=tabButton",
+      "targets": [
+        ["id=tabButton", "id"],
+        ["css=#tabButton", "css:finder"],
+        ["xpath=//button[@id='tabButton']", "xpath:attributes"],
+        ["xpath=//div[@id='tabButtonWrapper']/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New Tab')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win12",
+      "windowTimeout": 2000
+    }, {
+      "id": "fd5a70a4-5d46-490f-bb7d-bf22618ebb7e",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4444b5c-1643-4155-8263-7b89c8c392d1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win12}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "15f121b2-d210-4559-abcf-481d14846ecb",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "57fc2baa-8463-478b-b1ba-7e918bc18100",
+      "comment": "",
+      "command": "click",
+      "target": "id=windowButton",
+      "targets": [
+        ["id=windowButton", "id"],
+        ["css=#windowButton", "css:finder"],
+        ["xpath=//button[@id='windowButton']", "xpath:attributes"],
+        ["xpath=//div[@id='windowButtonWrapper']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'New Window')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1762",
+      "windowTimeout": 2000
+    }, {
+      "id": "028efee7-4ce1-4940-af44-2f696fe82b95",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1762}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ec07485-61db-4aae-92e5-986115cf73cf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4d831d0-e537-4d55-9544-916f560c82ea",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c96196e8-a2e3-4ff7-96e4-c3e72a89a8b1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4d0879d4-8ecc-4095-ae5e-9ff63a2cfec8"]
+  }],
+  "urls": ["https://demoqa.com/"],
+  "plugins": []
+}
